@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid brown;
+}
+#nav>a{
+    color: yellow
+}
+#myForm{
+    height: 90vh;
+    width: 100%;
+    background-color:darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myForm>article>{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 35px whitesmoke;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#myForm>article>label>{
+    color: blue;
+    font-style: italic;
+}
+#myForm>article>input{
+    border: none;
+    background-color:white;
+    border-bottom: 1px solid blueviolet;
+}
+#myForm>article>input:focus{
+outline: none;
+}
+#myForm>article>input:hover{
+    transform: scale(1.1);
+
+}
+#userHome{
+    height: 90vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+#cards{
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+}
+#cards>table>tr td ,th{
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#h1{
+    padding: auto;
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
