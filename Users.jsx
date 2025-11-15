@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom'
  const Users = () => {
   let [content ,setContent] =useState([])
 
+
+  
   useEffect(()=>{
     axios.get("http://localhost:3000/user")
     .then((response)=>{
@@ -56,3 +58,4 @@ import { Link } from 'react-router-dom'
   )
 }
 export default Users
+
